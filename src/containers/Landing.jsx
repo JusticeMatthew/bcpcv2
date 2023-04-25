@@ -3,15 +3,15 @@ import {
   PhoneArrowUpRightIcon,
   ArrowDownCircleIcon,
 } from '@heroicons/react/24/solid';
-import { Button } from '@/components';
+import { Button, ScrollLink } from '@/components';
 
 const Landing = () => {
   return (
     <section
       id="home"
-      className="flex items-center justify-center w-full h-screen"
+      className="flex items-center justify-center w-full h-screen pt-10"
     >
-      <div className="grid grid-cols-3 grid-rows-1 gap-10 section h-2/3">
+      <div className="grid items-center grid-cols-3 grid-rows-1 gap-10 section h-2/3">
         <div className="flex flex-col col-span-2 gap-8 pr-10">
           <h1 className="text-[4rem] font-bold leading-tight font-inter">
             No Pest Worries for an&nbsp;
@@ -28,10 +28,12 @@ const Landing = () => {
               407-330-2664
               <PhoneArrowUpRightIcon className="w-5 h-5" />
             </Button>
-            <Button variant="secondary" className="group">
-              Learn More
-              <ArrowDownCircleIcon className="w-6 h-6 transition-all duration-75 group-hover:text-logo" />
-            </Button>
+            <ScrollLink to="about">
+              <Button variant="secondary" className="group">
+                Learn More
+                <ArrowDownCircleIcon className="w-6 h-6 transition-all duration-75 group-hover:text-logo" />
+              </Button>
+            </ScrollLink>
           </div>
         </div>
         <div className="flex items-center justify-center h-full ring-logo ring-2 bg-dark text-logo">

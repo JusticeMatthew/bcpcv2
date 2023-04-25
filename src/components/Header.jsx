@@ -4,7 +4,7 @@ import { ScrollLink } from '@/components';
 
 const Header = () => {
   return (
-    <div className="fixed z-20 flex items-center justify-center w-full h-16 text-white bg-dark">
+    <div className="fixed z-20 flex items-center justify-center w-full h-20 text-white bg-dark">
       <div className="flex items-center justify-between section">
         <ScrollLink to="home" className="cursor-pointer">
           <Image

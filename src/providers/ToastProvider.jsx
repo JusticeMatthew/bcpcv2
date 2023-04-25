@@ -5,7 +5,7 @@ const ToastProvider = ({ children }) => {
   return (
     <>
       <Toaster
-        position="bottom-center"
+        position="top-center"
         reverseOrder={false}
         toastOptions={{
           success: {
