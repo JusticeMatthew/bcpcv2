@@ -16,6 +16,7 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         tight: ['InterTight', 'sans-serif'],
+        cursive: ['DancingScript', 'handwriting'],
       },
     },
   },
