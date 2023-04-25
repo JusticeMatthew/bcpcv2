@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="flex items-center justify-center w-full h-screen"
     >
-      <div className="grid grid-cols-3 grid-rows-1 section h-[60%]">
+      <div className="grid grid-cols-3 grid-rows-1 section h-2/3">
         <div className="flex flex-col items-center justify-center text-center rounded-2xl ring ring-logo ring-inset">
           <div className="flex items-center gap-4 mb-4">
             <Ping />

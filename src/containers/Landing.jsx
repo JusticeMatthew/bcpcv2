@@ -11,8 +11,8 @@ const Landing = () => {
       id="home"
       className="flex items-center justify-center w-full h-screen"
     >
-      <div className="flex items-center justify-between section h-2/3">
-        <div className="flex flex-col w-1/2 gap-8">
+      <div className="grid grid-cols-3 grid-rows-1 gap-10 section h-2/3">
+        <div className="flex flex-col col-span-2 gap-8 pr-10">
           <h1 className="text-[4rem] font-bold leading-tight font-inter">
             No Pest Worries for an&nbsp;
             <span className="text-logo">Entire Year </span>
@@ -34,7 +34,7 @@ const Landing = () => {
             </Button>
           </div>
         </div>
-        <div className="flex items-center justify-center w-1/2 h-full ring-logo ring-2 bg-dark text-logo">
+        <div className="flex items-center justify-center h-full ring-logo ring-2 bg-dark text-logo">
           Image
         </div>
       </div>
