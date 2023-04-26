@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import-normalize;
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Inter+Tight&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Inter+Tight&family=Lato&display=swap');
 
 @layer components {
   .section {

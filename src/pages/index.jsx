@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col items-center w-full text-white bg-dark font-poppins selection:bg-logo selection:text-black">
+    <main className="flex flex-col items-center w-full text-white bg-dark selection:bg-logo selection:text-black">
       <Landing />
       <About />
     </main>

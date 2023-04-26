@@ -18,7 +18,7 @@ const About = () => {
             </h2>
             <Ping />
           </div>
-          <p className="p-6 text-sm opacity-90">
+          <p className="p-6 text-sm opacity-75 font-lato">
             We&apos;re happy to announce we are now offering pest control in
             Brevard County which will be serviced by Andy Anderson.
             <br />
@@ -26,7 +26,7 @@ const About = () => {
             Andy is a lifelong resident of Melbourne and he and Garry have been
             friends since high school.
           </p>
-          <p className="p-6">
+          <p className="p-6 font-lato">
             For Brevard appointments call or text Andy directly
           </p>
           <Button

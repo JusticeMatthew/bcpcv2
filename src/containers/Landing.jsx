@@ -18,7 +18,7 @@ const Landing = () => {
             <span className="text-logo">Entire Year </span>
             With B&C
           </h1>
-          <h2 className="text-sm leading-snug opacity-60">
+          <h2 className="text-sm leading-snug opacity-60 font-lato">
             Our once-a-year pest control treatment in Seminole, West Volusia,
             and Brevard counties is the perfect solution for homeowners who want
             peace of mind.
