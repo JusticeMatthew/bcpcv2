@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 const ScrollLink = ({ children, to, active, className }) => {
   return (
     <Link
+      href="/"
       to={to}
       activeClass={active}
       spy={true}
