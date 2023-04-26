@@ -2,9 +2,9 @@ import React from 'react';
 
 const Ping = () => {
   return (
-    <span class="relative flex h-3 w-3">
-      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-logo opacity-75"></span>
-      <span class="relative inline-flex rounded-full h-3 w-3 bg-logo"></span>
+    <span className="relative flex w-3 h-3">
+      <span className="absolute inline-flex w-full h-full rounded-full opacity-75 animate-ping bg-logo"></span>
+      <span className="relative inline-flex w-3 h-3 rounded-full bg-logo"></span>
     </span>
   );
 };
