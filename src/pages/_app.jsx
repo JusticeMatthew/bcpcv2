@@ -8,7 +8,8 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>B&C Pest Control</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="robots" content="nofollow" />
+        <meta name="robots" content="index,nofollow" />
+        <meta name="googlebot" content="index,nofollow" />
         <meta
           name="description"
           content="B&C Pest Control. Once-a-year service in Central Florida (West Volusia, Seminole, and Brevard Counties)"
