@@ -24,14 +24,14 @@ const Landing = () => {
             peace of mind.
           </h2>
           <div className="flex gap-5 mt-6">
-            <Button>
+            <Button className="group">
               407-330-2664
-              <PhoneArrowUpRightIcon className="w-5 h-5" />
+              <PhoneArrowUpRightIcon className="w-5 h-5 group-hover:rotate-[360deg] transition-transform duration-500" />
             </Button>
             <ScrollLink to="about">
               <Button variant="secondary" className="group">
                 Learn More
-                <ArrowDownCircleIcon className="w-6 h-6 transition-all duration-75 group-hover:text-logo" />
+                <ArrowDownCircleIcon className="w-6 h-6 transition-transform duration-500 group-hover:text-logo group-hover:rotate-[360deg]" />
               </Button>
             </ScrollLink>
           </div>

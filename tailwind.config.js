@@ -14,9 +14,9 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        tight: ['InterTight', 'sans-serif'],
+        tight: ['Inter Tight', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
-        cursive: ['DancingScript', 'handwriting'],
+        dancing: ['Dancing Script', 'cursive'],
       },
     },
   },
