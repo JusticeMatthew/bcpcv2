@@ -14,9 +14,8 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        tight: ['Inter Tight', 'sans-serif'],
-        lato: ['Lato', 'sans-serif'],
-        dancing: ['Dancing Script', 'cursive'],
+        bebas: ['Bebas Neue', 'sans-serif'],
+        zeyada: ['Zeyada', 'cursive'],
       },
     },
   },

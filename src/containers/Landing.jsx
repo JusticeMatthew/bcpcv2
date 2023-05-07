@@ -1,43 +1,39 @@
 import React from 'react';
-import {
-  PhoneArrowUpRightIcon,
-  ArrowDownCircleIcon,
-} from '@heroicons/react/24/solid';
+import { PhoneIcon, ArrowUturnDownIcon } from '@heroicons/react/24/solid';
 import { Button, ScrollLink } from '@/components';
 
 const Landing = () => {
   return (
     <section
       id="home"
-      className="flex items-center justify-center w-full h-screen pt-10"
+      className="flex items-center justify-center w-full h-screen"
     >
-      <div className="grid items-center grid-cols-3 grid-rows-1 gap-10 section h-2/3">
-        <div className="flex flex-col col-span-2 gap-8 pr-10">
-          <h1 className="text-[4rem] font-bold leading-tight font-inter">
-            No Pest Worries for an&nbsp;
-            <span className="text-logo">Entire Year </span>
-            With B&C
-          </h1>
-          <h2 className="text-sm leading-snug opacity-60 font-lato">
-            Our once-a-year pest control treatment in Seminole, West Volusia,
-            and Brevard counties is the perfect solution for homeowners who want
-            peace of mind.
-          </h2>
-          <div className="flex gap-5 mt-6">
-            <Button className="group">
-              407-330-2664
-              <PhoneArrowUpRightIcon className="w-5 h-5 group-hover:rotate-[360deg] transition-transform duration-500" />
+      <div className="flex flex-col items-center justify-center text-center section">
+        <h1 className="text-8xl font-bebas">
+          No Pest Worries for
+          <br />
+          <span className="text-logo">An Entire Year</span>
+          <br />
+          With B&C Pest Control
+        </h1>
+        <h2 className="mt-4 text-sm opacity-70">
+          Our once-a-year pest control treatment in Seminole,
+          <br />
+          West Volusia, and Brevard counties is the perfect
+          <br />
+          solution for homeowners who want peace of mind.
+        </h2>
+        <div className="flex gap-6 mt-12">
+          <Button className="group">
+            <PhoneIcon className="w-4 h-4 mr-2" />
+            407-330-2664
+          </Button>
+          <ScrollLink to="about" offset={-120}>
+            <Button variant="secondary" className="group">
+              <ArrowUturnDownIcon className="w-4 h-4 mr-2" />
+              Learn more
             </Button>
-            <ScrollLink to="about">
-              <Button variant="secondary" className="group">
-                Learn More
-                <ArrowDownCircleIcon className="w-6 h-6 transition-transform duration-500 group-hover:text-logo group-hover:rotate-[360deg]" />
-              </Button>
-            </ScrollLink>
-          </div>
-        </div>
-        <div className="flex items-center justify-center h-full ring-logo ring-2 bg-dark text-logo">
-          Image
+          </ScrollLink>
         </div>
       </div>
     </section>

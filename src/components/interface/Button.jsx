@@ -3,7 +3,7 @@ import { cva } from 'class-variance-authority';
 import { twMerge } from 'tailwind-merge';
 
 const buttonVariants = cva(
-  'rounded-md p-3 px-5 transition-color duration-75 active:scale-95 font-lato hover:ring ring-logo ring-inset flex items-center justify-center gap-2',
+  'rounded pr-6 pl-4 h-10 text-sm transition-color duration-75 active:scale-95 hover:ring ring-logo ring-inset flex items-center justify-center',
   {
     variants: {
       variant: {

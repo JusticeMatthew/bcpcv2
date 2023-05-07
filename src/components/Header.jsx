@@ -4,7 +4,7 @@ import { ScrollLink } from '@/components';
 
 const Header = () => {
   return (
-    <div className="fixed z-20 flex items-center justify-center w-full h-20 text-white bg-dark">
+    <div className="fixed z-20 flex items-center justify-center w-full h-16 text-white bg-dark">
       <div className="flex items-center justify-between section">
         <ScrollLink to="home" className="cursor-pointer">
           <Image
@@ -14,18 +14,19 @@ const Header = () => {
             alt="B&C_logo"
           />
         </ScrollLink>
-        <nav className="flex font-medium font-interTight">
+        <nav className="flex font-medium">
           {[
-            ['home', 'Home'],
-            ['about', 'About Us'],
-            ['areas', 'Service Areas'],
-            ['reviews', 'Reviews'],
+            ['home', 'Home', 0],
+            ['about', 'About Us', -120],
+            ['areas', 'Service Areas', -120],
+            ['reviews', 'Reviews', 0],
           ].map((navItem, idx) => (
             <ScrollLink
               key={idx}
               to={navItem[0]}
-              active="text-logo underline underline-offset-4 decoration-2"
-              className="p-1 mx-2 transition duration-200 rounded-lg cursor-pointer last:mr-0 hover:text-logo hover:underline underline-offset-4 decoration-2"
+              offset={navItem[2]}
+              active="text-logo"
+              className="px-4 py-2 transition duration-200 rounded cursor-pointer last:mr-0 hover:text-logo hover:bg-mid"
             >
               <p>{navItem[1]}</p>
             </ScrollLink>

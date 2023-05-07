@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Events } from 'react-scroll';
-import { Landing, About } from '@/containers';
+import { Footer } from '@/components';
+import { Landing, About, ServiceAreas, Reviews } from '@/containers';
 
 export default function Home() {
   useEffect(() => {
@@ -11,9 +12,12 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col items-center w-full text-white bg-dark selection:bg-logo selection:text-black">
+    <div className="flex flex-col items-center w-full text-white scroll-smooth font-inter bg-dark selection:bg-logo selection:text-black">
       <Landing />
       <About />
-    </main>
+      <ServiceAreas />
+      <Reviews />
+      <Footer />
+    </div>
   );
 }
