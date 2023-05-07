@@ -5,7 +5,7 @@ import { SparklesIcon } from '@heroicons/react/24/solid';
 const Footer = () => {
   return (
     <div className="flex items-center justify-center w-full h-32 bg-black">
-      <div className="flex items-center justify-between opacity-50 section">
+      <div className="flex justify-between opacity-50 section">
         <div className="relative w-40 h-20">
           <Image src="/footer-logo.png" alt="B&C Logo" fill="true" />
         </div>

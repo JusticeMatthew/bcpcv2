@@ -72,7 +72,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <h6 className="text-4xl font-zeyada">Garry & JJ Reese</h6>
+          <h4 className="text-4xl font-zeyada">Garry & JJ Reese</h4>
         </div>
       </div>
     </section>
