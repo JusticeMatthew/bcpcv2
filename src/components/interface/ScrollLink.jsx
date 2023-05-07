@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const ScrollLink = ({ children, to, active, className, offset }) => {
+const ScrollLink = ({ children, to, active, className, offset, onClick }) => {
   return (
     <Link
       href="/"
@@ -12,6 +12,7 @@ const ScrollLink = ({ children, to, active, className, offset }) => {
       smooth={true}
       duration={500}
       className={className}
+      onClick={onClick}
     >
       {children}
     </Link>

@@ -17,6 +17,9 @@ module.exports = {
         bebas: ['Bebas Neue', 'sans-serif'],
         zeyada: ['Zeyada', 'cursive'],
       },
+      screens: {
+        mg: '900px',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
