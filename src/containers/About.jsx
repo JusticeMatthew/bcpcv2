@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div
         id="about"
-        className="grid grid-cols-3 grid-rows-1 gap-10 section h-3/5"
+        className="grid grid-cols-3 grid-rows-1 gap-10 section h-[26rem]"
       >
         <div className="flex flex-col justify-center p-6 rounded-lg ring ring-logo ring-inset">
           <div className="flex items-center mb-1">

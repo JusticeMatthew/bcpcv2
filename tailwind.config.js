@@ -17,6 +17,9 @@ module.exports = {
         bebas: ['Bebas Neue', 'sans-serif'],
         zeyada: ['Zeyada', 'cursive'],
       },
+      backgroundImage: {
+        truck: 'url(/andy-with-truck.png)',
+      },
       screens: {
         mg: '900px',
       },
