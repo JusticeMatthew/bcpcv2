@@ -18,7 +18,7 @@ module.exports = {
         zeyada: ['Zeyada', 'cursive'],
       },
       backgroundImage: {
-        truck: 'url(/andy-with-truck.png)',
+        truck: "url('/andy-with-truck.png')",
       },
       screens: {
         mg: '900px',
