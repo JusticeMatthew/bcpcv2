@@ -13,9 +13,9 @@ module.exports = {
         container: '62.5rem',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        bebas: ['Bebas Neue', 'sans-serif'],
-        zeyada: ['Zeyada', 'cursive'],
+        inter: ['var(--font-inter)', 'sans-serif'],
+        bebas: ['var(--font-bebas)', 'sans-serif'],
+        zeyada: ['var(--font-zeyada)', 'cursive'],
       },
       backgroundImage: {
         truck: "url('/andy-with-truck.png')",

@@ -1,6 +1,25 @@
 import '@/styles/globals.css';
 import Head from 'next/head';
+import { Inter, Bebas_Neue, Zeyada } from 'next/font/google';
 import { Layout } from '@/components';
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+const bebas = Bebas_Neue({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bebas',
+});
+const zeyada = Zeyada({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-zeyada',
+});
 
 export default function App({ Component, pageProps }) {
   return (
@@ -8,12 +27,12 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>B&C Pest Control</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preload" href="https://fonts.googleapis.com" />
+        {/* <link rel="preload" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="true"
-        />
+        /> */}
         <meta
           name="description"
           content="B&C Pest Control. Once-a-year service in Central Florida (West Volusia, Seminole, and Brevard Counties)"
@@ -30,7 +49,9 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content="/og-logo.png" />
       </Head>
 
-      <Layout>
+      <Layout
+        className={`${inter.variable} ${bebas.variable} ${zeyada.variable}`}
+      >
         <Component {...pageProps} />
       </Layout>
     </>
