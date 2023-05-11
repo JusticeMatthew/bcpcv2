@@ -23,16 +23,10 @@ const zeyada = Zeyada({
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <main className={`${inter.variable} ${bebas.variable} ${zeyada.variable}`}>
       <Head>
         <title>B&C Pest Control</title>
         <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="preload" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        /> */}
         <meta
           name="description"
           content="B&C Pest Control. Once-a-year service in Central Florida (West Volusia, Seminole, and Brevard Counties)"
@@ -49,11 +43,9 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content="/og-logo.png" />
       </Head>
 
-      <Layout
-        className={`${inter.variable} ${bebas.variable} ${zeyada.variable}`}
-      >
+      <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </main>
   );
 }
