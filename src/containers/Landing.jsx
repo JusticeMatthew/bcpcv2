@@ -48,7 +48,7 @@ const Landing = () => {
               </Button>
             </Link>
           </div>
-          <ScrollLink to="about" offset={-120}>
+          <ScrollLink to="about" offset={-40}>
             <Button variant="secondary" className="group">
               <ArrowUturnDownIcon className="w-4 h-4 mr-2" />
               Learn more

@@ -36,7 +36,6 @@ const About = () => {
             <Button
               className="w-full hover:bg-dark hover:text-logo"
               onClick={() => {
-                toast.success('Phone Number Copied!');
                 navigator.clipboard.writeText('3212656877');
               }}
             >
