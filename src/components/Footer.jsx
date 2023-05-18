@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="flex items-center justify-center w-full h-32 bg-black">
       <div className="flex justify-between opacity-50 section">
-        <div className="relative w-20 h-10 md:w-40 md:h-20">
+        <div className="relative hidden w-20 h-10 md:w-40 md:h-20 sm:inline">
           <Image src="/footer-logo.png" alt="B&C Logo" fill="true" />
         </div>
         <div className="flex flex-col text-xs">
@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="mt-1 font-semibold">For Brevard County call or text:</p>
           <Link href="tel:3212656877">321-265-6877</Link>
         </div>
-        <div className="text-xs">
+        <div className="pl-4 text-xs">
           <p>Copyright © 2023 B&C Pest Control</p>
           <p>
             Website designed & built by&nbsp;

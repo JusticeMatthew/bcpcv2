@@ -9,3 +9,15 @@
     @apply px-4 w-container;
   }
 }
+
+.carousel {
+  height: 400px !important;
+}
+
+.slider-wrapper {
+  height: 340px !important;
+}
+
+.slide {
+  height: 340px !important;
+}
