@@ -37,7 +37,7 @@ const Header = () => {
           >
             {[
               ['home', 'Home', 0],
-              ['about', 'About Us', -120],
+              ['about', 'About Us', 0],
               ['areas', 'Service Areas', -10],
               ['reviews', 'Reviews', 0],
             ].map((navItem, index) => (
@@ -60,7 +60,7 @@ const Header = () => {
         <nav className="hidden font-medium sm:flex">
           {[
             ['home', 'Home', 0],
-            ['about', 'About Us', -120],
+            ['about', 'About Us', -40],
             ['areas', 'Service Areas', -10],
             ['reviews', 'Reviews', 0],
           ].map((navItem, idx) => (

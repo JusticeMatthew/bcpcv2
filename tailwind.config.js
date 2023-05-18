@@ -17,6 +17,14 @@ module.exports = {
         bebas: ['var(--font-bebas)', 'sans-serif'],
         zeyada: ['var(--font-zeyada)', 'cursive'],
       },
+      fontSize: {
+        smallHeader: [
+          '2.8rem',
+          {
+            lineHeight: '1',
+          },
+        ],
+      },
       backgroundImage: {
         truck: "url('/andy-with-truck.png')",
       },

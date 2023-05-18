@@ -7,15 +7,15 @@ import { PhoneIcon } from '@heroicons/react/24/solid';
 const About = () => {
   return (
     <section className="flex w-full h-screen md:items-center md:justify-center">
-      <div className="absolute z-0 flex justify-center w-full overflow-hidden -translate-y-32 pointer-events-none">
+      <div
+        id="about"
+        className="absolute z-0 flex justify-center w-full overflow-hidden -translate-y-32 pointer-events-none"
+      >
         <span className="font-bebas text-[24rem] text-logo opacity-[.03] whitespace-nowrap">
           about us
         </span>
       </div>
-      <div
-        id="about"
-        className="md:grid flex flex-col md:grid-cols-3 md:grid-rows-1 gap-10 section h-[26rem]"
-      >
+      <div className="md:grid flex flex-col md:grid-cols-3 md:grid-rows-1 gap-10 section h-[26rem]">
         <div className="flex flex-col justify-center p-6 rounded-lg ring ring-logo ring-inset">
           <div className="flex items-center mb-1">
             <Ping />

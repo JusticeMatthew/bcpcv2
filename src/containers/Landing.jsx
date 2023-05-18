@@ -18,7 +18,7 @@ const Landing = () => {
       className="flex items-center justify-center w-full h-screen"
     >
       <div className="flex flex-col items-center justify-center text-center section">
-        <h1 className="text-4xl whitespace-pre sm:text-6xl md:text-8xl font-bebas">
+        <h1 className="whitespace-pre text-smallHeader sm:text-6xl md:text-8xl font-bebas">
           No Pest Worries for
           <br />
           <span className="text-logo">An Entire Year</span>
