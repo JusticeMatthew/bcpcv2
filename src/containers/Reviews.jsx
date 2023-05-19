@@ -57,19 +57,20 @@ const Reviews = () => {
           </div>
         ) : (
           <Carousel
+            width={360}
             infiniteLoop
-            axis="vertical"
             autoPlay={true}
             stopOnHover={true}
             interval={5000}
             centerMode={true}
+            centerSlidePercentage={100}
             showStatus={false}
             showThumbs={false}
             showArrows={false}
             emulateTouch={true}
           >
             {reviews.map((item, idx) => (
-              <div key={idx} className="text-sm text-left w-[90%] pl-10 h-full">
+              <div key={idx} className="w-full h-full pl-6 text-sm text-left">
                 <p className="w-full mb-[2px] text-lg">{item.name}</p>
                 <div className="relative w-20 h-4 mb-2">
                   <Image src="/Ratings.svg" alt="5 stars" fill />
