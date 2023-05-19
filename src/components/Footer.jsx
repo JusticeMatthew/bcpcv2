@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col text-xs">
           <h6 className="font-semibold">Contact us:</h6>
-          <Link href="tel:4073302664">407-330-2664</Link>
+          <Link href="tel:4073302664">407-330-2644</Link>
           <Link href="email:info@bandcpestcontrol.com">
             info@bandcpestcontrol.com
           </Link>

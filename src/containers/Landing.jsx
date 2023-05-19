@@ -44,7 +44,7 @@ const Landing = () => {
             <Link href="tel:4073302644">
               <Button className="group" onClick={handleClick}>
                 <PhoneIcon className="w-4 h-4 mr-2" />
-                407-330-2664
+                407-330-2644
               </Button>
             </Link>
           </div>

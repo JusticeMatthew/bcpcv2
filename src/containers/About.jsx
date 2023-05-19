@@ -67,17 +67,18 @@ const About = () => {
               <p className="inline">
                 We specialize in once-a-year pest control treatments that keep
                 your home pest-free all year round. If you have any issues
-                during the year, we offer re-treatments at no additional cost.
+                during the year, we offer <br className="hidden lg:inline" />
+                re-treatments at no additional cost.
               </p>
             </div>
             <div>
               <div className="inline-flex w-4 h-1 -translate-y-[.13rem] rounded self-baseline bg-logo mr-2" />
               <p className="inline">
                 Our philosophy is to use the best quality products and treat our
-                customers the way we want to be treated, and we pride ourselves
-                on developing personal relationships with our customers. Thank
-                you for choosing B&C Pest Control, where your satisfaction is
-                our top priority.
+                customers the way we want to be treated. We pride ourselves on
+                developing personal relationships with our customers. Thank you
+                for choosing B&C Pest Control, where your satisfaction is our
+                top priority.
               </p>
             </div>
           </div>
