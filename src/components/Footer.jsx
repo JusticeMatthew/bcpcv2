@@ -21,11 +21,18 @@ const Footer = () => {
         </div>
         <div className="pl-4 text-xs">
           <p>Copyright © 2023 B&C Pest Control</p>
+          <p>Website designed & built by&nbsp;</p>
           <p>
-            Website designed & built by&nbsp;
             <SparklesIcon className="inline-flex w-3 h-3" />
-            &nbsp;Majic
+            &nbsp;Majic Web Design
           </p>
+          <Link
+            href="https://www.majicwebdesign.com/"
+            target="_blank"
+            className="underline"
+          >
+            www.majicwebdesign.com
+          </Link>
         </div>
       </div>
     </div>
