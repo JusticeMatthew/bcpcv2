@@ -20,7 +20,7 @@ const Footer = () => {
           <Link href="tel:3212656877">321-265-6877</Link>
         </div>
         <div className="pl-4 text-xs">
-          <p>Copyright © 2024 B&C Pest Control</p>
+          <p>Copyright © 2025 B&C Pest Control</p>
           <p>Website designed & built by&nbsp;</p>
           <p>
             <SparklesIcon className="inline-flex w-3 h-3" />
